@@ -30,7 +30,9 @@ Una de las mayores fortalezas de **zymDev Core** es su capacidad para ejecutarse
 
 Consulta las notas de lanzamiento de nuestras versiones actuales:
 
-- [Versión 4.2.1](versions/v4.2.1.md) (Actual)
+- [Versión 4.2.3](versions/v4.2.3.md) (Actual)
+- [Versión 4.2.2](versions/v4.2.2.md)
+- [Versión 4.2.1](versions/v4.2.1.md)
 - [Versión 4.2.0](versions/v4.2.0.md)
 
 ---
