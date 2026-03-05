@@ -59,8 +59,8 @@ Utilizamos las tecnologías más modernas y confiables del mercado:
 
 ## 📈 Impacto y Experiencia
 
-- **+80,000 usuarios finales** activos en nuestras plataformas.
-- **+3 años** de experiencia especializada en el mercado colombiano.
+- **+10,000 usuarios finales** activos en nuestras plataformas.
+- **+6 años** de experiencia especializada en el mercado colombiano.
 - Miembro afiliado de **Fedesoft** (Federación Colombiana de la Industria del Software).
 
 ---
@@ -70,7 +70,7 @@ Utilizamos las tecnologías más modernas y confiables del mercado:
 - **Dirección**: Calle 59 # 14a - 82, Teusaquillo, Bogotá D.C., Colombia.
 - **Teléfono / WhatsApp**: [+57 300 5539080](https://wa.me/573005539080)
 - **Sitio Web**: [https://zymdev.com](https://zymdev.com)
-- **GitHub**: [zym365](https://github.com/zym365)
+- **GitHub**: [zymdevTeam](https://github.com/zymdevTeam)
 
 ---
 *Desarrollado con ❤️ por zymDev Team.*
