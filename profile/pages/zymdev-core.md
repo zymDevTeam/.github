@@ -77,19 +77,23 @@ gantt
 
 ---
 
-## 📅 Próximos Lanzamientos (Roadmap)
+## 📅 Hoja de Ruta de Versiones (Milestones)
 
-Nuestra hoja de ruta proyectada para el año 2026 incluye los siguientes hitos:
+Nuestra hoja de ruta abarca la evolución del framework desde su unificación en v4.0.0 hasta la arquitectura de microservicios planeada para v6.0.0:
 
-| Versión | Fecha Estimada | Objetivos Principales |
-| :--- | :--- | :--- |
-| **v4.4.0** | 13 de Abril, 2026 | Mejoras de rendimiento y estabilidad en el Core. |
-| **v5.0.0** | 11 de Mayo, 2026 | **Hito Mayor**: Sistema unificado para todos los productos, nuevos sistemas de versionamiento, pruebas y seguimiento. |
-| **v5.1.0** | 8 de Junio, 2026 | Integración con sistemas contables y Google Workspace. |
-| **v5.2.0** | 6 de Julio, 2026 | Módulo de gestión contable consolidado. |
-| **v5.3.0** | 3 de Agosto, 2026 | Refinamiento de integraciones de terceros. |
-| **v5.4.0** | 31 de Agosto, 2026 | Optimización de infrautilidad y seguridad avanzada. |
-| **v6.0.0** | 28 de Septiembre, 2026 | Nueva arquitectura de microservicios y escalabilidad global. |
+| Versión | Fecha Estimada | Estado | Objetivos Principales |
+| :--- | :--- | :--- | :--- |
+| **v4.0.0** | 22 de Dic, 2025 | ✅ Completado | Lanzamiento de versión 4, sistema unificado para todos los productos, nuevos sistemas de versionamiento, desarrollo, pruebas y seguimiento. |
+| **v4.1.0** | 19 de Ene, 2026 | ✅ Completado | Integración con sistemas contables y Google Workspace, módulo de gestión contable. |
+| **v4.2.0** | 16 de Feb, 2026 | ✅ Completado | Mejoras de estabilidad base. |
+| **v4.3.0** | 16 de Mar, 2026 | ✅ Completado | Refinamiento de la arquitectura v4. |
+| **v4.4.0** | 13 de Abr, 2026 | 🚀 Planeado | Nuevo diseño para módulos generales. |
+| **v5.0.0** | 11 de May, 2026 | 🚀 Planeado | **Hito Mayor**: Evolución del sistema unificado y nuevas herramientas de automatización. |
+| **v5.1.0** | 8 de Jun, 2026 | 🚀 Planeado | Módulos de analítica avanzada. |
+| **v5.2.0** | 6 de Jul, 2026 | 🚀 Planeado | Consolidación de gestión contable. |
+| **v5.3.0** | 3 de Ago, 2026 | 🚀 Planeado | Refinamiento de integraciones de terceros. |
+| **v5.4.0** | 31 de Ago, 2026 | 🚀 Planeado | Optimización de infrautilidad y seguridad avanzada. |
+| **v6.0.0** | 28 de Sep, 2026 | 🚀 Planeado | **Hito Mayor**: Nueva arquitectura de microservicios y escalabilidad global. |
 
 ---
 
