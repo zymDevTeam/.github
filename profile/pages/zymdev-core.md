@@ -77,6 +77,22 @@ gantt
 
 ---
 
+## 📅 Próximos Lanzamientos (Roadmap)
+
+Nuestra hoja de ruta proyectada para el año 2026 incluye los siguientes hitos:
+
+| Versión | Fecha Estimada | Objetivos Principales |
+| :--- | :--- | :--- |
+| **v4.4.0** | 13 de Abril, 2026 | Mejoras de rendimiento y estabilidad en el Core. |
+| **v5.0.0** | 11 de Mayo, 2026 | **Hito Mayor**: Sistema unificado para todos los productos, nuevos sistemas de versionamiento, pruebas y seguimiento. |
+| **v5.1.0** | 8 de Junio, 2026 | Integración con sistemas contables y Google Workspace. |
+| **v5.2.0** | 6 de Julio, 2026 | Módulo de gestión contable consolidado. |
+| **v5.3.0** | 3 de Agosto, 2026 | Refinamiento de integraciones de terceros. |
+| **v5.4.0** | 31 de Agosto, 2026 | Optimización de infrautilidad y seguridad avanzada. |
+| **v6.0.0** | 28 de Septiembre, 2026 | Nueva arquitectura de microservicios y escalabilidad global. |
+
+---
+
 ## 📜 Historial de Versiones
 
 Consulta las notas de lanzamiento de nuestras versiones actuales:
