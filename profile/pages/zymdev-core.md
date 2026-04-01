@@ -101,7 +101,8 @@ Nuestra hoja de ruta abarca la evolución del framework desde su unificación en
 
 Consulta las notas de lanzamiento de nuestras versiones actuales:
 
-- [Versión 4.3.5](versions/v4.3.5.md) (Actual)
+- [Versión 4.3.6](versions/v4.3.6.md) (Actual)
+- [Versión 4.3.5](versions/v4.3.5.md)
 - [Versión 4.3.4](versions/v4.3.4.md)
 - [Versión 4.3.3](versions/v4.3.3.md)
 - [Versión 4.3.2](versions/v4.3.2.md)
