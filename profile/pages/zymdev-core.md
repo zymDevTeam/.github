@@ -87,7 +87,7 @@ Nuestra hoja de ruta abarca la evolución del framework desde su unificación en
 | **v4.1.0** | 19 de Ene, 2026 | ✅ Completado | Integración con sistemas contables y Google Workspace, módulo de gestión contable. |
 | **v4.2.0** | 16 de Feb, 2026 | ✅ Completado | Mejoras de estabilidad base. |
 | **v4.3.0** | 16 de Mar, 2026 | ✅ Completado | Refinamiento de la arquitectura v4. |
-| **v4.4.0** | 13 de Abr, 2026 | 🚀 Planeado | Nuevo diseño para módulos generales. |
+| **v4.4.0** | 13 de Abr, 2026 | ✅ Completado | Despliegue de Gateway HL7 y gestión de información tributaria. |
 | **v5.0.0** | 11 de May, 2026 | 🚀 Planeado | **Hito Mayor**: Evolución del sistema unificado y nuevas herramientas de automatización. |
 | **v5.1.0** | 8 de Jun, 2026 | 🚀 Planeado | Módulos de analítica avanzada. |
 | **v5.2.0** | 6 de Jul, 2026 | 🚀 Planeado | Consolidación de gestión contable. |
@@ -101,7 +101,8 @@ Nuestra hoja de ruta abarca la evolución del framework desde su unificación en
 
 Consulta las notas de lanzamiento de nuestras versiones actuales:
 
-- [Versión 4.3.9](versions/v4.3.9.md) (Actual)
+- [Versión 4.4.0](versions/v4.4.0.md) (Actual)
+- [Versión 4.3.9](versions/v4.3.9.md)
 - [Versión 4.3.8](versions/v4.3.8.md)
 - [Versión 4.3.7](versions/v4.3.7.md)
 - [Versión 4.3.6](versions/v4.3.6.md)
