@@ -88,12 +88,14 @@ Nuestra hoja de ruta abarca la evolución del framework desde su unificación en
 | **v4.2.0** | 16 de Feb, 2026 | ✅ Completado | Mejoras de estabilidad base. |
 | **v4.3.0** | 16 de Mar, 2026 | ✅ Completado | Refinamiento de la arquitectura v4. |
 | **v4.4.0** | 13 de Abr, 2026 | ✅ Completado | Despliegue de Gateway HL7 y gestión de información tributaria. |
-| **v5.0.0** | 11 de May, 2026 | 🚀 Planeado | **Hito Mayor**: Evolución del sistema unificado y nuevas herramientas de automatización. |
-| **v5.1.0** | 8 de Jun, 2026 | 🚀 Planeado | Módulos de analítica avanzada. |
-| **v5.2.0** | 6 de Jul, 2026 | 🚀 Planeado | Consolidación de gestión contable. |
+| **v5.0.0** | 11 de May, 2026 | 🚀 Planeado | **Hito Mayor**: Evolución del sistema unificado y nuevas herramientas de automatización. Se liberan las versiones para Android, iOS, Linux, MacOS y Windows. Cambios de diseño y experiencia de usuario en el menú lateral y menú interno. |
+| **v5.1.0** | 9 de Jun, 2026 | 🚀 Planeado | Módulos de analítica avanzada. Nuevos componentes disponibles en aplicaciones de multiplataforma. |
+| **v5.2.0** | 6 de Jul, 2026 | 🚀 Planeado | Consolidación de gestión contable. Nuevos componentes disponibles en aplicaciones de multiplataforma. |
 | **v5.3.0** | 3 de Ago, 2026 | 🚀 Planeado | Refinamiento de integraciones de terceros. |
 | **v5.4.0** | 31 de Ago, 2026 | 🚀 Planeado | Optimización de infrautilidad y seguridad avanzada. |
 | **v6.0.0** | 28 de Sep, 2026 | 🚀 Planeado | **Hito Mayor**: Nueva arquitectura de microservicios y escalabilidad global. |
+
+<span style="color: red;">NOTA</span>: No todos los productos y servicios tendrán acceso total a las funcionalidades desde el día de lanzamiento, sin embargo, algunas opciones si estarán disponibles para todos los productos y servicios.
 
 ---
 
