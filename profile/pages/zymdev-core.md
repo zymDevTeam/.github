@@ -88,7 +88,7 @@ Nuestra hoja de ruta abarca la evolución del framework desde su unificación en
 | **v4.2.0** | 16 de Feb, 2026 | ✅ Completado | Mejoras de estabilidad base. |
 | **v4.3.0** | 16 de Mar, 2026 | ✅ Completado | Refinamiento de la arquitectura v4. |
 | **v4.4.0** | 13 de Abr, 2026 | ✅ Completado | Despliegue de Gateway HL7 y gestión de información tributaria. |
-| **v5.0.0** | 11 de May, 2026 | 🚀 Planeado | **Hito Mayor**: Evolución del sistema unificado y nuevas herramientas de automatización. Se liberan las versiones para Android, iOS, Linux, MacOS y Windows. Cambios de diseño y experiencia de usuario en el menú lateral y menú interno. Liberación de `Mi Cuenta` como sistema de acceso y control de SAML/OAuth2.  |
+| **v5.0.0** | 19 de May, 2026 | ✅ Completado | **Hito Mayor**: Evolución del sistema unificado y nuevas herramientas de automatización. Se liberan las versiones para Android, iOS, Linux, MacOS y Windows. Cambios de diseño y experiencia de usuario en el menú lateral y menú interno. Liberación de `Mi Cuenta` como sistema de acceso y control de SAML/OAuth2.  |
 | **v5.1.0** | 9 de Jun, 2026 | 🚀 Planeado | Módulos de analítica avanzada. Nuevos componentes disponibles en aplicaciones de multiplataforma. |
 | **v5.2.0** | 6 de Jul, 2026 | 🚀 Planeado | Consolidación de gestión contable. Nuevos componentes disponibles en aplicaciones de multiplataforma. |
 | **v5.3.0** | 3 de Ago, 2026 | 🚀 Planeado | Refinamiento de integraciones de terceros. |
@@ -103,7 +103,8 @@ Nuestra hoja de ruta abarca la evolución del framework desde su unificación en
 
 Consulta las notas de lanzamiento de nuestras versiones actuales:
 
-- [Versión 4.4.3](versions/v4.4.3.md) (Actual)
+- [Versión 5.0.0](versions/v5.0.0.md) (Actual)
+- [Versión 4.4.3](versions/v4.4.3.md)
 - [Versión 4.4.2](versions/v4.4.2.md)
 - [Versión 4.4.1](versions/v4.4.1.md)
 - [Versión 4.4.0](versions/v4.4.0.md)
