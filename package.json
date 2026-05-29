@@ -1,0 +1,16 @@
+{
+  "name": "zym-wiki",
+  "version": "1.0.0",
+  "description": "zymDev Wiki - Documentación de productos y framework core",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "mermaid": "^11.15.0",
+    "vitepress": "^1.2.0",
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vue": "^3.4.0"
+  }
+}
