@@ -7,6 +7,7 @@ export default withMermaid(
     description: 'Documentación oficial de zymDev y framework core',
     srcDir: 'profile',
     cleanUrls: true,
+    appearance: 'dark',
     lang: 'es-CO',
     themeConfig: {
       outline: {
