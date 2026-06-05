@@ -1,0 +1,29 @@
+name: Deploy Website to Firebase
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    uses: zymDevTeam/zymdev-actions-web-deploy/.github/workflows/reusable-ci-cd.yml@develop
+    with:
+      environment: prod
+      product: zymdev-core
+      is-preview: false
+      is-edited-angular: false
+      is-edited-vitepress: true
+      use-bun: true
+      site-path: "."
+      dist-path: ".vitepress/dist"
+      vitepress-build-command: "docs:build"
+      is-edited-functions: false
+      is-edited-indexes: false
+      is-edited-firestore-rules: false
+      is-edited-storage-rules: false
+      skip-generate-environment: true
+      skip-update-index: true
+      skip-update-icon: true
+      skip-update-promo-image: true
+      skip-update-promo-links: true
+    secrets: inherit
