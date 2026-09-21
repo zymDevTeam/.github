@@ -1,0 +1,44 @@
+name: '🔀 Antigravity Dispatch'
+
+on:
+  pull_request_review_comment:
+    types: ['created']
+  pull_request_review:
+    types: ['submitted']
+  pull_request:
+    types: ['opened']
+  issues:
+    types: ['opened', 'reopened']
+  issue_comment:
+    types: ['created']
+
+jobs:
+  antigravity:
+    if: >-
+      (
+        github.event_name == 'pull_request' &&
+        github.event.action == 'opened' &&
+        github.event.pull_request.head.repo.fork == false
+      ) || (
+        github.event_name == 'issues' &&
+        contains(fromJSON('["opened", "reopened"]'), github.event.action) &&
+        (contains(github.event.issue.labels.*.name, 'bug') || contains(github.event.issue.labels.*.name, 'Bug') || contains(github.event.issue.labels.*.name, 'BUG'))
+      ) || (
+        contains(fromJSON('["issue_comment", "pull_request_review", "pull_request_review_comment"]'), github.event_name) &&
+        github.event.sender.type == 'User' &&
+        contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.comment.author_association || github.event.review.author_association || github.event.issue.author_association) &&
+        (
+          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@antigravity') ||
+          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@antigravity-cli') ||
+          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@gemini-cli') ||
+          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@zelda') ||
+          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@zeldita')
+        )
+      )
+    permissions:
+      contents: read
+      id-token: write
+      issues: write
+      pull-requests: write
+    uses: zymDevTeam/zymdev-actions-zelda-app/.github/workflows/reusable-antigravity-dispatch.yml@stable
+    secrets: inherit

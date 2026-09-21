@@ -1,0 +1,9 @@
+# General repository owners
+* @zymDevTeam/zymdev-tech-leader-team @zymDevTeam/zymdev-admin-team
+
+# Specific owners for the .github directory
+.github/ @zymDevTeam/zymdev-devops-team
+
+# Specific owners for documentation
+docs/ @zymDevTeam/zymdev-documentation-team
+*.md @zymDevTeam/zymdev-documentation-team
