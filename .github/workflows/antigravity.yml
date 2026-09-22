@@ -24,15 +24,38 @@ jobs:
         contains(fromJSON('["opened", "reopened"]'), github.event.action) &&
         (contains(github.event.issue.labels.*.name, 'bug') || contains(github.event.issue.labels.*.name, 'Bug') || contains(github.event.issue.labels.*.name, 'BUG'))
       ) || (
-        contains(fromJSON('["issue_comment", "pull_request_review", "pull_request_review_comment"]'), github.event_name) &&
+        github.event_name == 'issue_comment' &&
         github.event.sender.type == 'User' &&
-        contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.comment.author_association || github.event.review.author_association || github.event.issue.author_association) &&
+        contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.comment.author_association) &&
         (
-          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@antigravity') ||
-          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@antigravity-cli') ||
-          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@gemini-cli') ||
-          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@zelda') ||
-          contains(github.event.comment.body || github.event.review.body || github.event.issue.body, '@zeldita')
+          contains(github.event.comment.body, '@antigravity') ||
+          contains(github.event.comment.body, '@antigravity-cli') ||
+          contains(github.event.comment.body, '@gemini-cli') ||
+          contains(github.event.comment.body, '@zelda') ||
+          contains(github.event.comment.body, '@zeldita')
+        )
+      ) || (
+        github.event_name == 'pull_request_review_comment' &&
+        github.event.sender.type == 'User' &&
+        contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.comment.author_association) &&
+        (
+          contains(github.event.comment.body, '@antigravity') ||
+          contains(github.event.comment.body, '@antigravity-cli') ||
+          contains(github.event.comment.body, '@gemini-cli') ||
+          contains(github.event.comment.body, '@zelda') ||
+          contains(github.event.comment.body, '@zeldita')
+        )
+      ) || (
+        github.event_name == 'pull_request_review' &&
+        github.event.sender.type == 'User' &&
+        contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.review.author_association) &&
+        github.event.review.body != null &&
+        (
+          contains(github.event.review.body, '@antigravity') ||
+          contains(github.event.review.body, '@antigravity-cli') ||
+          contains(github.event.review.body, '@gemini-cli') ||
+          contains(github.event.review.body, '@zelda') ||
+          contains(github.event.review.body, '@zeldita')
         )
       )
     permissions:
