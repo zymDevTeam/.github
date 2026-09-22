@@ -14,49 +14,6 @@ on:
 
 jobs:
   antigravity:
-    if: >-
-      (
-        github.event_name == 'pull_request' &&
-        github.event.action == 'opened' &&
-        github.event.pull_request.head.repo.fork == false
-      ) || (
-        github.event_name == 'issues' &&
-        contains(fromJSON('["opened", "reopened"]'), github.event.action) &&
-        (contains(github.event.issue.labels.*.name, 'bug') || contains(github.event.issue.labels.*.name, 'Bug') || contains(github.event.issue.labels.*.name, 'BUG'))
-      ) || (
-        github.event_name == 'issue_comment' &&
-        github.event.sender.type == 'User' &&
-        contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.comment.author_association) &&
-        (
-          contains(github.event.comment.body, '@antigravity') ||
-          contains(github.event.comment.body, '@antigravity-cli') ||
-          contains(github.event.comment.body, '@gemini-cli') ||
-          contains(github.event.comment.body, '@zelda') ||
-          contains(github.event.comment.body, '@zeldita')
-        )
-      ) || (
-        github.event_name == 'pull_request_review_comment' &&
-        github.event.sender.type == 'User' &&
-        contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.comment.author_association) &&
-        (
-          contains(github.event.comment.body, '@antigravity') ||
-          contains(github.event.comment.body, '@antigravity-cli') ||
-          contains(github.event.comment.body, '@gemini-cli') ||
-          contains(github.event.comment.body, '@zelda') ||
-          contains(github.event.comment.body, '@zeldita')
-        )
-      ) || (
-        github.event_name == 'pull_request_review' &&
-        github.event.sender.type == 'User' &&
-        contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.review.author_association) &&
-        (
-          contains(github.event.review.body, '@antigravity') ||
-          contains(github.event.review.body, '@antigravity-cli') ||
-          contains(github.event.review.body, '@gemini-cli') ||
-          contains(github.event.review.body, '@zelda') ||
-          contains(github.event.review.body, '@zeldita')
-        )
-      )
     permissions:
       contents: read
       id-token: write
